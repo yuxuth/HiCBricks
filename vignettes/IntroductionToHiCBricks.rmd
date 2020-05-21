@@ -176,7 +176,7 @@ curl_download(url = sparse_matrix_file,
     destfile = file.path(sparse_out_dir, "GSE104427_c2c12_40000_iced.matrix.gz"))
 
 sparse_bintable_file = file.path(ftp_location,"GSE104427_c2c12_40000_abs.bed.gz")
-curl_download(url = sparse_matrix_file,
+curl_download(url = sparse_bintable_file,
     destfile = file.path(sparse_out_dir, "GSE104427_c2c12_40000_abs.bed.gz"))
 ```
 
